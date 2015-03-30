@@ -25,4 +25,4 @@ mvn --version
 
 # Run the build
 echo -e "\n### Running mvn clean package"
-cd $POM_DIR && mvn clean install
+cd $POM_DIR && mvn clean package install
