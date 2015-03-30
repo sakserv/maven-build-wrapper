@@ -12,7 +12,7 @@ Setup:
 cd /tmp && git clone https://github.com/sakserv/maven-build-wrapper.git
 ```
 
-* Build the project
+* Run the wrapper
 ```
 cd /tmp/maven-build-wrapper && bash -x bin/build.sh </path/to/project/pom/dir>
 ```
